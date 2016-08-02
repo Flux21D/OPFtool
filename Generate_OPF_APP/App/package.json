@@ -1,0 +1,10 @@
+{
+  "name": "Generate-OPF",
+  "version": "0.0.1",
+  "description": "Software-to-generate-OPF-file-for-all-type-of-ePub-format",
+  "dependencies": {
+	"cheerio": "~0.20.0",
+    "optimist": "~0.2.0",
+	"ensureDir": "~1.0.6"
+	}
+}

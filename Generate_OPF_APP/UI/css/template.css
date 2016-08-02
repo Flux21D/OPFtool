@@ -1,0 +1,166 @@
+/* General Styles */
+body{
+	font-family: verdana;
+}
+.small{
+	font-size: 13px;
+}
+.big{
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+.borderBottom{
+	border-bottom: 1px solid grey;
+}
+.SolidborderBottom{
+	border-bottom: 3px solid grey;
+}
+.error{
+	color: red;
+}
+.confirmation{
+	color: green;
+}
+.grey{
+		color: grey !important;
+}
+.left{
+	float: left;
+	width: 40%;
+	margin-top: 1%;
+}
+.right{
+	float:right;
+	width: 50%;
+	margin-top: 3%;
+}
+.center{
+	text-align: center;
+}
+a{
+	color: inherit;
+	text-decoration: underline;
+}
+/* Padding Bottom Styles */
+.padding-bottom-one{
+	padding-bottom: 1%;
+}
+.padding-bottom-two{
+	padding-bottom: 2%;
+}
+.padding-bottom-three{
+	padding-bottom: 3%;
+}
+.padding-bottom-four{
+	padding-bottom: 4%;
+}
+.padding-bottom-five{
+	padding-bottom: 5%;
+}
+.padding-bottom-ten{
+	padding-bottom: 10%;
+}
+
+/* Margin Top Styles */
+.margin-top-none{
+	margin-top: 0%;
+}
+.margin-top-one{
+	margin-top: 1%;
+}
+.margin-top-two{
+	margin-top: 2%;
+}
+.margin-top-three{
+	margin-top: 3%;
+}
+.margin-top-four{
+	margin-top: 4%;
+}
+.margin-top-five{
+	margin-top: 5%;
+}
+.margin-top-ten{
+	margin-top: 10%;
+}
+
+/* Unique Styles */
+div#header{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+section div.innerRows {
+	margin-right: 0px;
+	margin-left: 0px;
+}
+section div.lastInnerRows {
+	margin-right: 0px;
+	margin-left: 0px;
+}
+.innerRows .size, .innerRows .quantity, .innerRows .price, .lastInnerRows .size, .lastInnerRows .quantity, .lastInnerRows .price {
+	margin-top: 1.5%;
+}
+aside{
+	font-size: 120%;
+}
+aside a{
+	color: inherit;
+	text-decoration: underline;
+}
+form .textBox{
+	margin-left: 20%;
+}
+.quantity input{
+	width: 20%;
+	text-align: center;
+}
+.menu{
+	float: left;
+	margin-left: 10%;
+	padding-top: 10%;
+	font-size:80%;
+}
+.btn{
+	margin-left: 12%;
+}
+/* Mobile View */
+@media screen and (max-width: 768px) {
+	div#header{
+		display:none;
+	}
+	header {
+		padding-bottom: 3%;
+		border-bottom: 3px solid grey;
+	}
+	.innerRows .quantity::before{
+		content: 'QTY: ';
+	}
+	.lastInnerRows .quantity::before{
+		content: 'QTY: ';
+	}
+	.quantity input{
+		width: 10%;
+	}
+	aside{
+		display: none;
+	}
+	p.left{
+		float: left;
+	}
+	p.right{
+		float:right;
+	}
+	.innerRows .size, .innerRows .quantity, .innerRows .price, .lastInnerRows .size, .lastInnerRows .quantity, .lastInnerRows .price 
+	{
+		float: right;
+		width: 53%;
+		margin-top: 0%;
+		color: grey;
+	}
+	form {
+		margin-top: 5%;
+		padding-bottom: 5%;
+		border-bottom: 1px solid grey;
+	}
+
+}

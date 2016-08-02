@@ -1,0 +1,15 @@
+{
+  "items": [
+    {
+      "key": "First",
+      "value": 100
+    },{
+      "key": "Second",
+      "value": false
+    },{
+      "key": "Last",
+      "value": "Mixed"
+    }
+  ]
+
+}

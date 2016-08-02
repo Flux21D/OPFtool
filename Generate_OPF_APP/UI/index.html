@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Sample Page </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+
+	<script src="js/Ajax_json.js"></script>
+	<link rel="stylesheet" href="css/template.css"/>
+</head>
+<body onload="ajaxFunction()">
+
+	<div class="container" >
+
+		<header class="grey padding-bottom-ten borderBottom">
+			<h1>OPF Generation - Meta Information</h1>
+		</header>
+
+		<section class="SolidborderBottom metaInfoSection">
+			<div class="row SolidborderBottom grey padding-bottom-four margin-top-two" id="header">
+				<div class="col-lg-2 col-md-6 col-sm-12 item center">Cover Image</div>
+				<div class="col-lg-2 col-md-2 col-sm-12 size center">Folder Name</div>
+				<div class="col-lg-2 col-md-2 col-sm-12 quantity center">Title Name</div>
+				<div class="col-lg-2 col-md-2 col-sm-12 price center">Author Name</div>
+			</div>
+		</section>
+		
+		<section class="margin-top-two buttons center">
+			<input type="button" id="Process" name="Process" value="Process"/>
+			<input type="button" id="Cancel" name="Cancel" value="Cancel"/>
+		</section>
+	</div> <!-- Div Container Ends Here -->
+
+	
+	<!-- Modal -->
+<!-- 	<div class="modal fade" id="myModal" tabindex="1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog" role="document">
+		<div class="modal-content">
+		  <div class="modal-body">
+		  
+			<div class="row">
+				<div class="col-lg-2 col-md-2 col-sm-2 margin-top-ten">
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 margin-top-ten">
+					<div class="row SolidborderBottom">&nbsp;</div>
+					<div class="row">
+						<p class="center grey big letterspacing margin-top-ten"> PAISLEY JEAN </p>
+						<p class="center big"> $21 </p>
+						<p class="center small">PAISLEY</p>
+						<button type="button" class="btn btn-primary center big">ADD TO BAG</button>
+						<p class="small prodLink center margin-top-two grey"><a href="#">See product details</a></p>
+					</div>
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-2 margin-top-ten">
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 margin-top-ten">
+					<img src="images/P1.jpg"/>
+				</div>
+			</div>
+			<div class="row">
+						
+
+			</div>
+		  </div>
+		  <div class="modal-footer">
+		  </div>
+		</div>
+	  </div>
+	</div>
+ -->	
+</body>
+</html>

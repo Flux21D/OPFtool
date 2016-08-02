@@ -1,0 +1,53 @@
+Version
+	Title_Name
+	Creator_Name
+	Subject
+	Description
+	Publisher
+	Contributor
+	Publication_Date
+	Type
+	Format
+	ISBN
+	Source
+	Language
+	Relation
+	Coverage
+	Copyright
+Orientation
+Spread
+CoverImageID
+	pageNumber
+	audio_duration
+	FullaudioDuration
+	FontID
+	FontPath
+	font_type
+	CoverImageID
+	CoverImagePath
+	Image_type
+	ImageID
+	ImagePath
+	AudioID
+	AudioPath
+	Audio_type
+	SmilID
+	SmilPath
+	Smil_type
+	NavHTMLID
+	NavHTMLPath
+	HTML_type
+	CoverHTMLID
+	CoverHTMLPath
+	BackCoverHTMLID
+	BackCoverHTMLPath
+	HTMLID
+	NavHTMLPath
+	CSSID
+	CSSPath
+	CSS_type
+	NCXID
+	NCSPath
+	NCX_type
+GuideType
+CoverHTMLName
